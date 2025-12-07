@@ -27,11 +27,13 @@ How It Works
 Usage
 - Run the script.
 - Follow the on-screen menu options:
-  1 → Add user information  
+`  1 → Add user information  
   2 → Display all saved information  
   3 → Calculate age of a specific person  
-  0 → Exit
+  0 → Exit`
 
 Notes
 - The program only validates the string format of the date, not real calendar validity.
-- Names are case-sensitive when calculating age.
+- Names are case-sensitive when calculating age.  
+  For example, "Alice" and "alice" are treated as different people.  
+  To avoid confusion, enter names consistently (e.g., always capitalize the first letter).
